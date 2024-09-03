@@ -38,7 +38,7 @@ const Form = () => {
     if (!validateForm()) return;
 
     const queryString = new URLSearchParams(formData).toString();
-    const qrCodeUrl = `https://yourdomain.com/display?${queryString}`;
+    const qrCodeUrl = `https://secure-med.vercel.app/display?${queryString}`;
 
     QRCode.toDataURL(qrCodeUrl, {
       width: 400,
