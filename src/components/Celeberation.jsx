@@ -1,13 +1,7 @@
 import Confetti from "react-confetti";
 
 const Celeberation = () => {
-  return (
-    <Confetti
-      width={window.innerWidth}
-      height={window.innerHeight}
-      gravity={0.2}
-    />
-  );
+  return <Confetti width={window.innerWidth} height={window.innerHeight} />;
 };
 
 export default Celeberation;
